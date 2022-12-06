@@ -180,7 +180,8 @@
         width: 105%;
         height: 100%;
         max-width: 110rem;
-        background-color: rgba(232, 66, 20, .8);
+        background-color: var(--second-brand-color);
+        opacity: .6;
         -webkit-clip-path: polygon(60% 0%, 81% 75%, 67% 100%, 0 100%, 0 0);
         clip-path: polygon(60% 0%, 81% 75%, 67% 100%, 0 100%, 0 0);
     }
@@ -195,7 +196,7 @@
         left: 1rem;
     }
     .hero__item {
-        background-image: linear-gradient(to right top, #e42914, #e73813, #ea4512, #ec5011, #ef5a11);
+        background-image: linear-gradient(to right top, var(--second-brand-color), var(--fourth-brand-color));
         -webkit-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 50%);
         clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 50%);
         width: 5rem;
@@ -213,7 +214,8 @@
         width: fit-content;
     }
     .hero__sub-item {
-        background-color: rgba(232, 66, 20, .8);
+        background-color: var(--second-brand-color);
+        opacity: .8;
         -webkit-clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
         clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
         width: 7rem;
