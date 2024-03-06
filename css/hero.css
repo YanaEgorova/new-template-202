@@ -154,15 +154,16 @@
     }
     .hero .text,
     .hero .title {
-        color: var(--sub-text-color);
+        /* color: var(--sub-text-color); */
     }
     .hero .hero__btn-box {
         justify-content: flex-start;
     }
     .hero__block {
         padding: 35rem 35rem 25rem 10rem;
-        background-image: linear-gradient(to bottom, #363636, #2e2e2f, #262728, #1f2021, #17191a);
+        /* background-image: linear-gradient(to bottom, #363636, #2e2e2f, #262728, #1f2021, #17191a); */
         margin-left: -2rem;
+        background-color: var(--first-brand-color);
         width: fit-content;
         -webkit-clip-path: polygon(60% 0%, 81% 75%, 67% 100%, 0 100%, 0 0);
         clip-path: polygon(60% 0%, 81% 75%, 67% 100%, 0 100%, 0 0);
